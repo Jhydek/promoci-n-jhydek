@@ -1,0 +1,50 @@
+body {
+    font-size: 16px;
+    padding: 20px;
+    color: #333; /* Color de texto predeterminado */
+}
+
+/* Media Queries para teléfonos móviles */
+@media screen and (max-width: 767px){ 
+    body {  
+         background-image: url(/android.jpeg);
+    
+    background-size: 490px;}
+a{
+    color: black;
+    text-decoration-line: none;
+    text-shadow: 2px 2px 2px aqua;
+    font-size: 30px;
+}
+a:hover{
+    color: rgb(218, 215, 32);
+}
+img{
+    width: 330px;
+    height: 460px;
+   margin: -20% 50% ;
+}}
+
+
+/* Media Queries para PCs */
+@media screen and (min-width: 768px) {
+    body {
+    background-image: url(/imagen\ para\ pc.png);
+        
+   background-size: 1366px 700px;}
+   a{
+    color: black;
+    text-decoration-line: none;
+    text-shadow: 2px 2px 2px aqua;
+    font-size: 30px;
+}
+a:hover{
+    color: rgb(218, 215, 32);
+}
+
+img{
+    width: 400px;
+    height: 591px;
+ margin: -8% 34%;
+}
+}

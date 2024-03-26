@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+    font-size: 16px;
+    padding: 20px;
+    color: #333; /* Color de texto predeterminado */
+}
+
+/* Media Queries para teléfonos móviles */
+@media screen and (max-width: 767px) {
+    body {
+        background-image: url(/android.jpeg);
+         background-size: 490px;
+    }
+h1{
+    text-align: center;
+    color: rgba(32, 161, 165, 0.733);
+    text-shadow: 2px 2px 7px black;
+}
+p{    color: rgba(32, 161, 165, 0.733);
+text-align: center;
+font-size: 18px;
+text-shadow: 2px 2px black;
+}
+ul{
+    color: rgba(32, 161, 165, 0.733);
+
+}
+a{ 
+    color: rgb(9, 237, 245);
+    text-align: center;
+    text-decoration-color: aquamarine;
+text-decoration-line: none;
+}
+a:hover{
+    color: rgb(228, 236, 234);
+}
+}
+
+
+
+/* Media Queries para PCs */
+@media screen and (min-width: 768px) {
+    body {
+    background-image: url(/imagen\ para\ pc.png);    
+   background-size: 1366px 700px;
+}
+.todo{
+    margin-top: 4%;
+    margin-left: 0%;
+    margin-right: 83%;
+}
+h1{
+    color: rgb(8, 194, 240);
+    text-shadow: 2px 3px 5px black;
+    font-size: 35px;
+}
+p{ color: rgba(8, 194,240);
+    
+    text-shadow: 2px 0px 2px black;
+    font-size: 18px;
+}
+
+a{
+    text-decoration-line: none;
+    color: aquamarine;
+}
+ul{
+    color: rgba(8, 194,240);
+    
+    text-shadow: 2px 0px 2px black;
+    font-size: 18px;
+}
+
+img{
+    margin: -19.5% 20% 5% 34%;
+    width: 230px; 
+    height: 294px;
+}
+
+}
